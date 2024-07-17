@@ -29,7 +29,7 @@ function CaptchaBox({
   font = "bold 20px Arial",
   boxBorder = "2px solid grey",
   boxBackground = "#fff",
-  textType = "NUM_ONLY",
+  textType = "MIXED",
   charLength = 6,
   reloadStyle = {},
   containerStyle = {

@@ -12,7 +12,7 @@ The CaptchaBox component accepts the following props:
 - fontColor (string): The color of the CAPTCHA text. Default is "#000".
 - boxBorder (string): The CSS border property for the CAPTCHA box. Default is "2px solid grey".
 - boxBackground (string): The background color of the CAPTCHA box. Default is "#fff".
-- textType (string): The type of characters used in the CAPTCHA text. It can be one of: "UPPER_TEXT"
+- textType (string): The type of characters used in the CAPTCHA text. Default is "MIXED". It can be one of: "UPPER_TEXT"
   "LOWER_TEXT"
   "UPPER_TEXT_NUM"
   "LOWER_TEXT_NUM"
