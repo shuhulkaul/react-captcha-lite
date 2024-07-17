@@ -1,6 +1,6 @@
 {
   "name": "react-captcha-lite",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "CAPTCHA for REACT web apps",
   "main": "./build/index.js",
   "scripts": {
