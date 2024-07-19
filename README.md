@@ -25,14 +25,14 @@ The CaptchaBox component accepts the following props:
 ## Usage
 
 ```javascript
-import { CaptchaBox, validateCaptcha, reloadCaptcha } from "./CaptchaBox";
+import { CaptchaBox, validateCaptcha, reloadCaptcha } from "react-captcha-lite";
 ```
 
 ## Example
 
 ```javascript
 import React from "react";
-import { CaptchaBox, validateCaptcha } from "./CaptchaBox";
+import { CaptchaBox, validateCaptcha } from "react-captcha-lite";
 
 function App() {
   const handleSubmit = (e) => {

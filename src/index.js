@@ -31,8 +31,14 @@ function CaptchaBox({
   boxBackground = "#fff",
   textType = "MIXED",
   charLength = 6,
-  reloadStyle = {},
+  reloadStyle = {
+    padding: 5,
+    cursor: "pointer",
+    border: "1px black solid",
+    userSelect: "none",
+  },
   containerStyle = {
+    padding: 2,
     display: "flex",
     gap: 5,
     justifyContent: "center",
@@ -97,9 +103,9 @@ function CaptchaBox({
       >
         Sorry, your browser does not support canvas.
       </canvas>
-      <button id="captcha_lite_reload_btn" onClick={reload} style={reloadStyle}>
+      <a id="captcha_lite_reload_btn" onClick={reload} style={reloadStyle}>
         &#x21bb;
-      </button>
+      </a>
     </div>
   );
 }
